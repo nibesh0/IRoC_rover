@@ -1,0 +1,8 @@
+prefix=/home/m4rcos/Documents/rover/rover/install
+
+Name: bimu_rgbd_receive
+Description: Description of bimu_rgbd_receive
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

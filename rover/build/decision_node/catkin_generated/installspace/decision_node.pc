@@ -1,0 +1,8 @@
+prefix=/home/m4rcos/Documents/rover/rover/install
+
+Name: decision_node
+Description: Description of decision_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

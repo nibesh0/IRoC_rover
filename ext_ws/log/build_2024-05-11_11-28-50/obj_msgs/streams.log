@@ -1,0 +1,38 @@
+[0.017s] Invoking command in '/home/m4rcos/Documents/rover/ext_ws/build/obj_msgs': /usr/bin/cmake --build /home/m4rcos/Documents/rover/ext_ws/build/obj_msgs -- -j12 -l12
+[0.038s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.057s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.222s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.227s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.229s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.336s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.374s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.449s] Error parsing '/home/m4rcos/Documents/rover/ext_ws/src/obj_msgs/package.xml':
+[0.512s] Traceback (most recent call last):
+[0.512s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[0.512s]     main()
+[0.512s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[0.512s]     raise e
+[0.512s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[0.512s]     package = parse_package_string(
+[0.512s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[0.512s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[0.512s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/m4rcos/Documents/rover/ext_ws/src/obj_msgs/package.xml':
+[0.512s] Error(s):
+[0.512s] - The manifest of package "obj_msgs" (with format version 3) must not contain the following tags: ros1_bridge
+[0.524s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[0.524s]   execute_process(/usr/bin/python3
+[0.524s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.524s]   /home/m4rcos/Documents/rover/ext_ws/src/obj_msgs/package.xml
+[0.524s]   /home/m4rcos/Documents/rover/ext_ws/build/obj_msgs/ament_cmake_core/package.cmake)
+[0.524s]   returned error code 1
+[0.524s] Call Stack (most recent call first):
+[0.524s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.524s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[0.524s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[0.524s] 
+[0.524s] 
+[0.525s] -- Configuring incomplete, errors occurred!
+[0.525s] See also "/home/m4rcos/Documents/rover/ext_ws/build/obj_msgs/CMakeFiles/CMakeOutput.log".
+[0.532s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[0.533s] Invoked command in '/home/m4rcos/Documents/rover/ext_ws/build/obj_msgs' returned '2': /usr/bin/cmake --build /home/m4rcos/Documents/rover/ext_ws/build/obj_msgs -- -j12 -l12

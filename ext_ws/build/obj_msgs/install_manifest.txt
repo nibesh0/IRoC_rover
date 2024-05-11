@@ -1,3 +1,4 @@
+/home/m4rcos/Documents/rover/ext_ws/install/obj_msgs/share/obj_msgs/bridge_map.yaml
 /home/m4rcos/Documents/rover/ext_ws/install/obj_msgs/share/ament_index/resource_index/rosidl_interfaces/obj_msgs
 /home/m4rcos/Documents/rover/ext_ws/install/obj_msgs/include/obj_msgs/msg/detail/object_msg__type_support.h
 /home/m4rcos/Documents/rover/ext_ws/install/obj_msgs/include/obj_msgs/msg/detail/object_msg__struct.h

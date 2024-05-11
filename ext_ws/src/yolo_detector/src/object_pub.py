@@ -8,6 +8,10 @@ from cv_bridge import CvBridge
 import numpy as np
 from PIL import Image
 import cv2
+from geometry_msgs.msg import Point
+from std_msgs.msg import String
+
+
 depth_array = np.zeros((480, 640), dtype=np.float32)
 class Object(Node):
     def __init__(self):
@@ -15,6 +19,10 @@ class Object(Node):
         node_name = os.path.splitext(os.path.basename(__file__))[0]
         super().__init__(node_name=node_name)
         print("init")
+        self.publisher = self.create_publisher(ObjectMsg, '/YoloDetection/ObjectMsgs', 10)
+        self.coordinate_publisher = self.create_publisher(Point, '/detected/heightwidth', 10)
+        self.coordinate_publisher2 = self.create_publisher(Point, '/detected/center', 10)
+        self.string_publisher = self.create_publisher(String, '/detected/cls', 10)
         self.publisher = self.create_publisher(ObjectMsg, '/YoloDetection/ObjectMsgs', 10)
         self.subscription = self.create_subscription(sensor_msgs.msg.Image, '/camera0/depth/image_rect_raw', self.image_callback, 10)
         self.subscriptionYolo = self.create_subscription(YoloDetection, '/YoloDetection/detect', self.depth_call_back, 10)
@@ -48,10 +56,24 @@ class Object(Node):
             obj_msg.x = self.x
             obj_msg.y = self.y
             self.publisher.publish(obj_msg)
+
+            msg = Point()
+            msg2 = Point()
+            msg2.x=float(self.x)
+            msg2.y=float(self.y)
+            msg2.z=float(distance)
+            msg.x=float(width)
+            msg.y=float(height)
+            msg.z=float(distance)
+            strs=String()
+            strs.data =cls
+            self.coordinate_publisher.publish(msg)
+            self.coordinate_publisher2.publish(msg2)
+            self.string_publisher.publish(strs)
+            self.publisher.publish(obj_msg)
             self.x = None
             self.y = None
             self.cls = None
-            self.publisher.publish(obj_msg)
 
     def image_process(self, msg):
 

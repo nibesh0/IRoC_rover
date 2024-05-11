@@ -10,7 +10,7 @@ class VideoListenerNode:
         rospy.init_node('video_listener_node', anonymous=True)
 
         self.bridge = CvBridge()
-        self.image_subscriber = rospy.Subscriber('video_frames', Image, self.image_callback)
+        self.image_subscriber = rospy.Subscriber('/YoloDetection/detectedvideo', Image, self.image_callback)
 
     def image_callback(self, data):
         try:

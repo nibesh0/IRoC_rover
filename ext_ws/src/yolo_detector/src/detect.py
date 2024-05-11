@@ -12,13 +12,14 @@ class YoloObjectDetector(Node):
         super().__init__('Yolo')
         print("init")
         self.publisher = self.create_publisher(YoloDetection, '/YoloDetection/detect', 10)
+        self.publisher2 = self.create_publisher(Image, '/YoloDetection/detectedvideo', 10)
         self.subscription = self.create_subscription(Image,'/camera0/infra/image_raw',self.image_callback,  10)
         self.bridge = CvBridge()
         self.yolo = YOLO("yolov8m.pt")
     
     def image_callback(self, msg):
         image = self.bridge.imgmsg_to_cv2(msg, "bgr8")
-        image = cv2.resize(image, (320, 230))  # Resize the image if needed
+        image = cv2.resize(image, (320, 230)) 
         self.detect(image)
 
     def detect(self, frame):
@@ -32,14 +33,12 @@ class YoloObjectDetector(Node):
                     class_name = f'class_{box.cls}'
                     confidence = float(box.conf)
                     
-                    # Draw bounding box
+
                     cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 2)
-                    
-                    # Put text with class name and confidence
                     label = f"{class_name}: {confidence:.2f}"
                     cv2.putText(frame, label, (int((x1+x2)/2), int((y1 +y2)/2)), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
-                    
-                    # Publish detection
+                    ros_img = self.bridge.cv2_to_imgmsg(frame, encoding='bgr8')
+                    self.publisher2.publish(ros_img)
                     detection = YoloDetection()
                     detection.x1 = x1
                     detection.y1 = y1
@@ -50,9 +49,8 @@ class YoloObjectDetector(Node):
                     self.publisher.publish(detection)
                     print(x1,y1,x2,y2)
 
-        # Show the frame
         cv2.imshow("frame", frame)
-        cv2.waitKey(1)  # Wait indefinitely for a key press
+        cv2.waitKey(1)  
 
 def main(args=None):
     rclpy.init(args=args)

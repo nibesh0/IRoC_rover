@@ -1,0 +1,48 @@
+[0.028s] Invoking command in '/home/m4rcos/Documents/rover/ext_ws/build/yolo_detector': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/m4rcos/Documents/rover/ext_ws/src/yolo_detector -DCMAKE_INSTALL_PREFIX=/home/m4rcos/Documents/rover/ext_ws/install/yolo_detector
+[0.089s] -- The C compiler identification is GNU 9.4.0
+[0.154s] -- The CXX compiler identification is GNU 9.4.0
+[0.159s] -- Check for working C compiler: /usr/bin/cc
+[0.882s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.883s] -- Detecting C compiler ABI info
+[0.974s] -- Detecting C compiler ABI info - done
+[0.988s] -- Detecting C compile features
+[0.988s] -- Detecting C compile features - done
+[0.992s] -- Check for working CXX compiler: /usr/bin/c++
+[1.089s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.090s] -- Detecting CXX compiler ABI info
+[1.184s] -- Detecting CXX compiler ABI info - done
+[1.197s] -- Detecting CXX compile features
+[1.197s] -- Detecting CXX compile features - done
+[1.200s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.229s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.232s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.527s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.619s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.621s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.621s] -- Added test 'lint_cmake' to check CMake code style
+[1.622s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.663s] -- Added test 'xmllint' to check XML markup files
+[1.666s] -- Configuring done
+[1.668s] -- Generating done
+[1.670s] -- Build files have been written to: /home/m4rcos/Documents/rover/ext_ws/build/yolo_detector
+[1.680s] Invoked command in '/home/m4rcos/Documents/rover/ext_ws/build/yolo_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/m4rcos/Documents/rover/ext_ws/src/yolo_detector -DCMAKE_INSTALL_PREFIX=/home/m4rcos/Documents/rover/ext_ws/install/yolo_detector
+[1.681s] Invoking command in '/home/m4rcos/Documents/rover/ext_ws/build/yolo_detector': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/m4rcos/Documents/rover/ext_ws/build/yolo_detector -- -j12 -l12
+[1.728s] Invoked command in '/home/m4rcos/Documents/rover/ext_ws/build/yolo_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/m4rcos/Documents/rover/ext_ws/build/yolo_detector -- -j12 -l12
+[1.782s] Invoking command in '/home/m4rcos/Documents/rover/ext_ws/build/yolo_detector': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/m4rcos/Documents/rover/ext_ws/build/yolo_detector
+[1.792s] -- Install configuration: ""
+[1.792s] -- Installing: /home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/ament_index/resource_index/package_run_dependencies/yolo_detector
+[1.793s] -- Installing: /home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/ament_index/resource_index/parent_prefix_path/yolo_detector
+[1.793s] -- Installing: /home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/environment/ament_prefix_path.sh
+[1.793s] -- Installing: /home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/environment/ament_prefix_path.dsv
+[1.793s] -- Installing: /home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/environment/path.sh
+[1.793s] -- Installing: /home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/environment/path.dsv
+[1.793s] -- Installing: /home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/local_setup.bash
+[1.793s] -- Installing: /home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/local_setup.sh
+[1.793s] -- Installing: /home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/local_setup.zsh
+[1.794s] -- Installing: /home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/local_setup.dsv
+[1.794s] -- Installing: /home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/package.dsv
+[1.794s] -- Installing: /home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/ament_index/resource_index/packages/yolo_detector
+[1.794s] -- Installing: /home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/cmake/yolo_detectorConfig.cmake
+[1.794s] -- Installing: /home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/cmake/yolo_detectorConfig-version.cmake
+[1.794s] -- Installing: /home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/package.xml
+[1.796s] Invoked command in '/home/m4rcos/Documents/rover/ext_ws/build/yolo_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/m4rcos/Documents/rover/ext_ws/build/yolo_detector

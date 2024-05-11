@@ -1,0 +1,6 @@
+{
+  "package_name": "yolo_msgs",
+  "non_idl_tuples": [
+    "/home/m4rcos/Documents/rover/ext_ws/src/yolo_msgs:msg/YoloDetection.msg"
+  ]
+}

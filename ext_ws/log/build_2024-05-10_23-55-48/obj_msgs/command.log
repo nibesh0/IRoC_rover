@@ -1,0 +1,6 @@
+Invoking command in '/home/m4rcos/Documents/rover/ext_ws/build/obj_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/m4rcos/Documents/rover/ext_ws/src/obj_msgs -DCMAKE_INSTALL_PREFIX=/home/m4rcos/Documents/rover/ext_ws/install/obj_msgs
+Invoked command in '/home/m4rcos/Documents/rover/ext_ws/build/obj_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/m4rcos/Documents/rover/ext_ws/src/obj_msgs -DCMAKE_INSTALL_PREFIX=/home/m4rcos/Documents/rover/ext_ws/install/obj_msgs
+Invoking command in '/home/m4rcos/Documents/rover/ext_ws/build/obj_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/m4rcos/Documents/rover/ext_ws/build/obj_msgs -- -j12 -l12
+Invoked command in '/home/m4rcos/Documents/rover/ext_ws/build/obj_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/m4rcos/Documents/rover/ext_ws/build/obj_msgs -- -j12 -l12
+Invoking command in '/home/m4rcos/Documents/rover/ext_ws/build/obj_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/m4rcos/Documents/rover/ext_ws/build/obj_msgs
+Invoked command in '/home/m4rcos/Documents/rover/ext_ws/build/obj_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/m4rcos/Documents/rover/ext_ws/build/obj_msgs

@@ -1,2 +1,2 @@
-arm_pkg:bimu_rgbd_camera:bimu_rgbd_receive:live_cam
+arm_pkg:bimu_rgbd_camera:bimu_rgbd_receive:height_measurement:live_cam:obj_msgs
 -DCATKIN_DEVEL_PREFIX=/home/m4rcos/Documents/rover/rover/devel -DCMAKE_INSTALL_PREFIX=/home/m4rcos/Documents/rover/rover/install -G Unix Makefiles

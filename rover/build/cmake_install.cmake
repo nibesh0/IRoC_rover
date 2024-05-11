@@ -131,9 +131,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/m4rcos/Documents/rover/rover/build/gtest/cmake_install.cmake")
+  include("/home/m4rcos/Documents/rover/rover/build/obj_msgs/cmake_install.cmake")
   include("/home/m4rcos/Documents/rover/rover/build/arm_pkg/cmake_install.cmake")
   include("/home/m4rcos/Documents/rover/rover/build/bimu_rgbd_receive/cmake_install.cmake")
   include("/home/m4rcos/Documents/rover/rover/build/bimu_rgbd_camera/cmake_install.cmake")
+  include("/home/m4rcos/Documents/rover/rover/build/height_measurement/cmake_install.cmake")
   include("/home/m4rcos/Documents/rover/rover/build/live_cam/cmake_install.cmake")
 
 endif()

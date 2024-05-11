@@ -1,0 +1,8 @@
+prefix=/home/m4rcos/Documents/rover/rover/install
+
+Name: height_measurement
+Description: Description of height_measurement
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

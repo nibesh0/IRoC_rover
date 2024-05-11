@@ -1,0 +1,15 @@
+/home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/ament_index/resource_index/package_run_dependencies/yolo_detector
+/home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/ament_index/resource_index/parent_prefix_path/yolo_detector
+/home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/environment/ament_prefix_path.sh
+/home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/environment/ament_prefix_path.dsv
+/home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/environment/path.sh
+/home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/environment/path.dsv
+/home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/local_setup.bash
+/home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/local_setup.sh
+/home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/local_setup.zsh
+/home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/local_setup.dsv
+/home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/package.dsv
+/home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/ament_index/resource_index/packages/yolo_detector
+/home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/cmake/yolo_detectorConfig.cmake
+/home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/cmake/yolo_detectorConfig-version.cmake
+/home/m4rcos/Documents/rover/ext_ws/install/yolo_detector/share/yolo_detector/package.xml

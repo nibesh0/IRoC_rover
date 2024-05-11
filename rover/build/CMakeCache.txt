@@ -424,6 +424,24 @@ cpp_common_DIR:PATH=/opt/ros/noetic/share/cpp_common/cmake
 //The directory containing a CMake configuration file for cv_bridge.
 cv_bridge_DIR:PATH=/opt/ros/noetic/share/cv_bridge/cmake
 
+//The directory containing a CMake configuration file for gencpp.
+gencpp_DIR:PATH=/opt/ros/noetic/share/gencpp/cmake
+
+//The directory containing a CMake configuration file for geneus.
+geneus_DIR:PATH=/opt/ros/noetic/share/geneus/cmake
+
+//The directory containing a CMake configuration file for genlisp.
+genlisp_DIR:PATH=/opt/ros/noetic/share/genlisp/cmake
+
+//The directory containing a CMake configuration file for genmsg.
+genmsg_DIR:PATH=/opt/ros/noetic/share/genmsg/cmake
+
+//The directory containing a CMake configuration file for gennodejs.
+gennodejs_DIR:PATH=/opt/ros/noetic/share/gennodejs/cmake
+
+//The directory containing a CMake configuration file for genpy.
+genpy_DIR:PATH=/opt/ros/noetic/share/genpy/cmake
+
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/noetic/share/geometry_msgs/cmake
 
@@ -473,6 +491,12 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
+//Value Computed by CMake
+height_measurement_BINARY_DIR:STATIC=/home/m4rcos/Documents/rover/rover/build/height_measurement
+
+//Value Computed by CMake
+height_measurement_SOURCE_DIR:STATIC=/home/m4rcos/Documents/rover/rover/src/height_measurement
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/noetic/lib/libroscpp_serialization.so
 
@@ -482,8 +506,17 @@ live_cam_BINARY_DIR:STATIC=/home/m4rcos/Documents/rover/rover/build/live_cam
 //Value Computed by CMake
 live_cam_SOURCE_DIR:STATIC=/home/m4rcos/Documents/rover/rover/src/live_cam
 
+//The directory containing a CMake configuration file for message_generation.
+message_generation_DIR:PATH=/opt/ros/noetic/share/message_generation/cmake
+
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
+
+//Value Computed by CMake
+obj_msgs_BINARY_DIR:STATIC=/home/m4rcos/Documents/rover/rover/build/obj_msgs
+
+//Value Computed by CMake
+obj_msgs_SOURCE_DIR:STATIC=/home/m4rcos/Documents/rover/rover/src/obj_msgs
 
 //The directory containing a CMake configuration file for picamera2.
 picamera2_DIR:PATH=picamera2_DIR-NOTFOUND
@@ -666,7 +699,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

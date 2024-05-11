@@ -1,0 +1,6 @@
+{
+  "package_name": "obj_msgs",
+  "non_idl_tuples": [
+    "/home/m4rcos/Documents/rover/ext_ws/src/obj_msgs:msg/ObjectMsg.msg"
+  ]
+}
